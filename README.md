@@ -10,15 +10,15 @@ Ziel war es, Neukundenverhalten, Marketingkanäle und Produktnachfrage nach Län
 
 ## Datensätze
 
-Die Analyse basiert auf folgenden Tabellen:
+* Die Analyse basiert auf folgenden Tabellen:
 
-orders → Bestelldaten (Kunde, Datum, Produkt, Land)
+* orders → Bestelldaten (Kunde, Datum, Produkt, Land)
 
-product_universal → Produktkategorien
+* product_universal → Produktkategorien
 
-product_locale → Produktnamen
+* product_locale → Produktnamen
 
-marketing_sources → Marketingkanäle (reporting_channel)
+* marketing_sources → Marketingkanäle (reporting_channel)
 
 ## Vorgehensweise
 
@@ -103,11 +103,11 @@ Produktkategorie (main_category)
 
 Ranking von Produkten:
 
-Top 5 Produkte pro Land (RANK())
+* Top 5 Produkte pro Land (RANK())
 
-Bottom 5 Produkte (ROW_NUMBER())
+* Bottom 5 Produkte (ROW_NUMBER())
 
-Visualisierung 3 – Produktkategorien nach Ländern
+## Visualisierung 3 – Produktkategorien nach Ländern
 
 Insight
 
@@ -117,16 +117,16 @@ Das Balkendiagramm eignet sich gut, um kategorische Daten zu vergleichen.
 
  ## Power BI Integration
 
-Power BI wurde direkt mit Google BigQuery verbunden:
+* Power BI wurde direkt mit Google BigQuery verbunden:
 
-Power BI öffnen
+* Power BI öffnen
 
-Get Data → Google BigQuery
+* Get Data → Google BigQuery
 
-Login mit Google-Konto
+* Login mit Google-Konto
 
-Dataset auswählen (koro_case)
+* Dataset auswählen (koro_case)
 
-Tabellen importieren
+* Tabellen importieren
 
 Die Visualisierungen wurden auf Basis der SQL-Ergebnisse erstellt.
